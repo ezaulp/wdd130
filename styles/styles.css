@@ -1,5 +1,11 @@
+:root {
+    --box-shodow:0 0 30px gray;
+    --principal-color: darkblue;
+}
+
+
 nav {
-    background-color: darkblue;
+    background-color:var(--principal-color);
     padding: 10px;
 }
 nav a {
@@ -8,14 +14,14 @@ nav a {
     padding: 20px;    
 }
 h1 {
-    color: darkblue;
+    color: var(--principal-color);
 }
 img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--box-shodow);
 }
 p {
     padding: 0;
@@ -45,7 +51,7 @@ main img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--box-shodow);
 }
 
 footer {
