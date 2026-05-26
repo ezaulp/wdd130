@@ -16,7 +16,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 header, main, footer {
@@ -73,4 +73,10 @@ nav, p, section, article {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
