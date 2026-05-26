@@ -1,6 +1,6 @@
 :root {
     --primary-color: #0B4F6C;
-    --secondary-color: #005f87;
+    --secondary-color: white;
     --accent1-color: rgb(35, 146, 61);
     --accent2-color: #444444;
 
@@ -26,7 +26,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 nav, p, section, article {
@@ -50,24 +50,24 @@ nav, p, section, article {
 
 .hero h1 {
     position: absolute;
-    top: 20px; 
+    top: 10px; 
     width: 100%; 
     padding: 16px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 .hero article {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     left: 20px;
     right: 20px;
     opacity: 0.9;
     background-color: var(--accent1-color);
     padding: 1rem;
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 .hero article img {
