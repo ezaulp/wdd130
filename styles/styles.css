@@ -6,7 +6,7 @@
 
 :root {
     --box-shodow:0 0 30px gray;
-    --principal-color: darkblue;
+    --principal-color: #112A46;
 }
 
 
@@ -36,7 +36,7 @@ img {
     box-shadow: var(--box-shodow);
 }
 p {
-    padding: 0;
+    padding: 2px;
 }
 
 aside {
@@ -46,8 +46,8 @@ aside {
 
 aside h2 {
   position: absolute;
-  top: 545px;
-  left: 142px;
+  top: 25px;
+  left: 125px;
 }
 
 aside img {
@@ -76,7 +76,7 @@ footer {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
-    background-color: yellowgreen;
+    background-color: #ACC8E5;
     color: black;
 }
 
