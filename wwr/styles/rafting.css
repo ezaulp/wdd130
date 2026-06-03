@@ -1,5 +1,5 @@
 :root {
-    --primary-color:#ACC8E5;
+    --primary-color: #ffffff;
     --secondary-color: #112A46;
     --accent1-color: #8B4F1A;
     --accent2-color: #444444;
@@ -55,7 +55,7 @@ nav {
  nav a {
     flex: 1 1 auto;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--primary-color);
     display: block;
     text-align: center;
     padding: 0.5rem;
@@ -86,7 +86,7 @@ nav {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #ffffff;
+    color: var(--primary-color);
 }
 
 .hero article {
@@ -97,7 +97,7 @@ nav {
     opacity: 0.9;
     background-color: var(--accent1-color);
     padding: 1rem;
-    color: #ffffff;
+    color: var(--primary-color);
 }
 
 .hero article img {
@@ -156,7 +156,7 @@ footer {
 
 .adventures figcaption {
     background-color: var(--secondary-color);
-    color: #ffffff;
+    color: var(--primary-color);
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
