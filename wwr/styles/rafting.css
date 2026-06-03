@@ -97,7 +97,7 @@ nav {
     opacity: 0.9;
     background-color: var(--accent1-color);
     padding: 1rem;
-    color: var(--primary-color);
+    color: #ffffff;
 }
 
 .hero article img {
