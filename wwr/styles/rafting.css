@@ -219,7 +219,6 @@ footer {
     display: grid;
     align-items:  center;
     grid-template-columns: 2fr 3fr;
-    align-items: center;
     margin: 0.3rem 0;
 }
 
@@ -268,7 +267,7 @@ footer {
 .employees figcaption {
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    font: italic sans-serif;
+    font: var(--body-font);
     padding: 10px;
     text-align: center;
 }
