@@ -367,3 +367,23 @@ footer {
     font-family: var(--body-font);
 }
 
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    letter-spacing: 1px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: 1px solid var(--accent2-color);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr, tfoot tr {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: 700;
+}
