@@ -20,7 +20,7 @@ body {
 }
 
 header, main, footer {
-    width: 840px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -37,9 +37,15 @@ header img {
     height: auto;
 }
 
+nav a:hover {
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+  border-radius: 5px;
+}
+
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
     text-align: center;
 }
 
@@ -244,7 +250,7 @@ footer {
 }
 
 .contact-form button:hover {
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }
 
 .employees {
@@ -286,10 +292,11 @@ footer {
     background-color:var(--secondary-color);
     color: var(--primary-color);
     padding: 18px 16px;
+    border: 3px solid var(--primary-color);
     border-radius: 9px;
     text-decoration: none;
     position: absolute;
-    top: 600px;
+    top: 500px;
     left: 30%;
     right: 30%;
     text-align: center;
@@ -298,15 +305,19 @@ footer {
 }
 
 .background a:hover, .join-us a:hover {
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }
 
 .background h1 {
     position: absolute;
+    background-color: var(--primary-color);
+    padding: 18px 16px;
+    border-radius: 9px;
+    border: 3px solid var(--secondary-color);
     top: 50px;
     left: 200px;
     padding: 8px 6px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .background h2 {
@@ -386,4 +397,121 @@ thead tr, tfoot tr {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     font-weight: 700;
+}
+
+.collage {
+    position: relative;
+    height: 600px;
+    margin-bottom: 30px;
+}
+
+.hero h2 {
+    position: absolute;
+    top: 15%;
+    left: 17%;
+    width: 70%;
+    text-align: center;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 8px;
+    border: 2px solid var(--accent2-color);
+    border-radius: 10px;
+}
+
+.newsletter-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 30px;
+    margin-top: 20px;
+    background-color: #76afcb;
+    border-radius: 8px;
+    align-items: center;
+    
+}
+
+.newsletter-box h2 {
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-box .news-name, .newsletter-box .news-email {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.newsletter-form input {
+    width: 200px;
+    padding: 3px;
+    font-size: medium;
+    border-radius: 5px;
+    border: 2px solid var(--accent2-color);
+}
+
+.newsletter-form label {
+    font-size: large;
+}
+
+.newsletter-form button {
+    margin-top: 5px;
+    padding: 8px 60px;
+    width: 100%;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.newsletter-form button:hover {
+    background-color: var(--accent2-color);
+}
+
+.our-trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.our-trips img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.our-trips .trip-call {
+    text-align: center;
+    padding: 20px;
+}
+
+.our-trips p {
+    margin: 10px 0 20px;
+    color: var(--accent2-color);
+}
+
+.our-trips .trip-call a {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: var(--heading-font);
+    font-weight: 700;
+}
+
+.our-trips a:hover {
+    background-color: var(--accent2-color);
 }
